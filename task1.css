@@ -76,6 +76,22 @@ nav {
     padding: 20px;
     flex-wrap: wrap;
 }
+#lefth1{
+    font-size: 75px;
+    font-weight: bold;
+}
+
+#leftp{
+    font-weight: 400;
+    font-size: 20px;  
+    margin-bottom: 30px;
+}
+
+#buttonp{
+    margin-bottom: 20px;
+    margin-left: 40px;
+    font-size: xx-large;
+}
 
 .left {
     flex: 1;
@@ -175,7 +191,7 @@ footer ul li a {
         text-align: center;
     }
     
-     .container1 div {
+     .tabulardata div {
         flex-direction:column;
         text-align:justify;
         margin-right: 80px;
@@ -194,22 +210,22 @@ footer ul li a {
     }
 }
 
-.f23 {
+.powercollab {
     padding: 50px 20px;
 }
-.f23 h1 {
+.powercollab h1 {
     font-size: 40px;
 }
-.f23 p {
+.powercollab p {
     font-size: 18px;
     line-height: 1.5;
 }
-.f23 img {
+.powercollab img {
     max-width: 80%;
     height: auto;
     margin-top: 20px;
 }
-.container1 {
+.tabulardata {
     
     display: flex;
     justify-content: center;   
@@ -223,15 +239,16 @@ footer ul li a {
 }
 .indiv p {
     font-size: 24px;
-    font-weight: bold;
+    font-weight:bold;
 
 }
-.indiv span {
+#indivp {
     margin-right: 20px;
     font-size: 18px;
     color: #ccc;
+    font-weight: lighter;
 }
-.f28 img {
+.featureimg img {
     width: 100%;
     height: auto;
 }
@@ -245,7 +262,7 @@ align-items: center;
 font-size: 18px;
 cursor: pointer;
 }
-.button span {
+.button p {
 font-size:xx-large;
 margin-left: 120px;
 margin-right: 2px;
